@@ -1,0 +1,26 @@
+// This file exports all icons used in the project
+export {
+  FaBars,
+  FaTimes,
+  FaDownload,
+  FaArrowDown,
+  FaGraduationCap,
+  FaBriefcase,
+  FaStar,
+  FaCode,
+  FaPalette,
+  FaServer,
+  FaMobile,
+  FaRocket,
+  FaShieldAlt,
+  FaGithub,
+  FaExternalLinkAlt,
+  FaEnvelope,
+  FaPhone,
+  FaMapMarkerAlt,
+  FaPaperPlane,
+  FaLinkedin,
+  FaTwitter,
+  FaHeart,
+  FaArrowUp
+} from 'react-icons/fa';
