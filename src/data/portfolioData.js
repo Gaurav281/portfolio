@@ -11,17 +11,17 @@ export const portfolioData = {
   socialLinks: [
     {
       name: "GitHub",
-      url: "https://github.com/your-github-username",
+      url: "https://github.com/Gaurav281",
       icon: "FaGithub",
     },
     {
       name: "LinkedIn",
-      url: "https://www.linkedin.com/in/your-linkedin-username",
+      url: "https://www.linkedin.com/in/gaurav-khatri-v8",
       icon: "FaLinkedin",
     },
     {
       name: "LeetCode",
-      url: "https://leetcode.com/your-leetcode-username",
+      url: "https://leetcode.com/u/9rAy3ImtDx/",
       icon: "FaCode",
     },
   ],
@@ -31,7 +31,7 @@ export const portfolioData = {
       degree: "Bachelor of Technology (B.Tech) – Computer Science & Engineering",
       institution: "Gateway Institute of Engineering & Technology",
       year: "2022 – 2026",
-      grade: "CGPA: 7.4",
+      grade: "CGPA: 7.5",
       location: "Sonipat, Haryana",
     },
   ],
@@ -79,43 +79,69 @@ export const portfolioData = {
   ],
 
   projects: [
-    {
-      id: "ecommerce-clone",
-      title: "E-Commerce Clone",
-      description:
-        "A full-featured e-commerce platform with product listings, cart, authentication, and payment integration.",
-      category: "fullstack",
-      tech: [
-        "React",
-        "Node.js",
-        "Express",
-        "MongoDB",
-        "Redux",
-        "JWT",
-      ],
-      github: "https://github.com/your-github/ecommerce-clone",
-      live: "",
-      image: "/projects/ecommerce.jpg",
-    },
-    {
-      id: "stack-overflow-clone",
-      title: "Stack Overflow Clone",
-      description:
-        "A Q&A platform with question posting, answering, voting system, OTP-based authentication, and multi-language support.",
-      category: "fullstack",
-      tech: [
-        "React",
-        "Node.js",
-        "Express",
-        "MongoDB",
-        "JWT",
-        "Email OTP",
-      ],
-      github: "https://github.com/your-github/stackoverflow-clone",
-      live: "",
-      image: "/projects/stackoverflow.png",
-    },
-  ],
+  {
+    id: "cpp-http-server",
+    title: "High-Performance HTTP Web Server in C++",
+    description:
+      "Architected a lightweight multithreaded HTTP server from scratch using C++ and BSD sockets. Implemented thread pools, WebSocket support, and foundational WebRTC signaling workflow while applying TCP/IP networking, RAII, STL, and memory-safe design principles.",
+    category: "systems",
+    tech: [
+      "C++",
+      "Multithreading",
+      "BSD Sockets",
+      "TCP/IP",
+      "WebSocket",
+      "WebRTC",
+      "STL",
+      "Linux",
+    ],
+    github: "https://github.com/Gaurav281/http_web_server", 
+    live: "",
+    image: "/projects/cpp_server.jpeg",
+  },
+  {
+    id: "twitter-platform",
+    title: "Twitter – Scalable Social Media Platform",
+    description:
+      "Built a full-stack Twitter-like social media platform using Node.js, GraphQL, Prisma ORM, PostgreSQL, and Supabase. Implemented Google OAuth 2.0 authentication, JWT session management, Redis caching, real-time tweet interactions, and scalable frontend using React, TypeScript, and TailwindCSS.",
+    category: "fullstack",
+    tech: [
+      "React",
+      "TypeScript",
+      "Node.js",
+      "GraphQL",
+      "Prisma ORM",
+      "PostgreSQL",
+      "Supabase",
+      "Redis",
+      "TailwindCSS",
+      "JWT",
+      "Google OAuth",
+    ],
+    github: "https://github.com/Gaurav281/Twitter",
+    live: "",
+    image: "/projects/twitter.png",
+  },
+  {
+    id: "openrouter-ai",
+    title: "OpenRouter AI Integration Platform",
+    description:
+      "Developed a scalable backend integration layer for OpenRouter API enabling dynamic large language model routing. Implemented asynchronous request handling, structured logging, rate limiting, and extensible architecture for future AI model integrations.",
+    category: "backend",
+    tech: [
+      "Node.js",
+      "Express",
+      "OpenRouter API",
+      "Asynchronous Programming",
+      "Rate Limiting",
+      "REST APIs",
+      "Logging",
+    ],
+    github: "https://github.com/Gaurav281/open_router",
+    live: "",
+    image: "/projects/open_router.png",
+  },
+],
 
   skills: [
     { name: "React.js", level: 85 },
@@ -147,7 +173,7 @@ export const portfolioData = {
     "Built 3+ Full Stack Projects",
   ],
 
-  resumeUrl: "/resume.pdf", // place your resume in public folder
+  resumeUrl: "resume.pdf", // place your resume in public folder
 };
 
 export default portfolioData;

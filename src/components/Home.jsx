@@ -131,7 +131,7 @@ dark:bg-[radial-gradient(rgba(148,163,184,0.25)_1.2px,transparent_1.2px)]">
         </div>
 
         {/* Scroll Indicator */}
-        <motion.div
+        {/* <motion.div
           animate={{ y: [0, 10, 0] }}
           transition={{ repeat: Infinity, duration: 2 }}
           className="absolute bottom-4 md:bottom-2 left-1/2 transform -translate-x-1/2 hidden md:block"
@@ -144,7 +144,7 @@ dark:bg-[radial-gradient(rgba(148,163,184,0.25)_1.2px,transparent_1.2px)]">
               <div className="w-1 h-3 bg-slate-400 dark:bg-slate-500 rounded-full mt-2 group-hover:bg-blue-500 group-hover:animate-bounce transition-all"></div>
             </div>
           </a>
-        </motion.div>
+        </motion.div> */}
       </div>
 
 

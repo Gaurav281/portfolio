@@ -151,7 +151,7 @@ const Projects = () => {
           className="text-center mt-16"
         >
           <a
-            href="https://github.com"
+            href="https://github.com/Gaurav281"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-3 px-8 py-4 rounded-xl bg-gradient-to-r from-blue-600/10 to-purple-600/10 hover:from-blue-600/20 hover:to-purple-600/20 border border-blue-200 dark:border-blue-800 text-blue-600 dark:text-blue-400 font-semibold transition-all duration-300 hover:shadow-lg"
